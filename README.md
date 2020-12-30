@@ -39,7 +39,8 @@ $ git clone https://github.com/username/software-project.git
 $ chmod +x Dumpo_Acuator-v1.0
 $ ./Dumpo_Acuator-v1.0 https://www.target.com
 OR
-$ ./Dumpo_Acuator-v1.0 httpss//www.target.com```
+$ ./Dumpo_Acuator-v1.0 httpss//www.target.com
+```
 
 ## Contributors
 ---
