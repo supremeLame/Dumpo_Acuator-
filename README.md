@@ -34,9 +34,13 @@ The tool interogates the following endpoints available:
 * [Version 1.0](https://github.com/supremeLame/Dumpo_Acuator-.git)
 
 ## Usage
-```$ git clone https://github.com/username/software-project.git
-...
-```
+---
+```$ git clone https://github.com/username/software-project.git```
+```$ chmod +x Dumpo_Acuator-v1.0```
+```$ ./Dumpo_Acuator-v1.0 https://www.target.com```
+OR
+```$ ./Dumpo_Acuator-v1.0 httpss//www.target.com```
+
 ## Contributors
 ---
 supremeLame
