@@ -1,58 +1,57 @@
 Dumpo_Acuator-v1.0
 ======
-**Dumpo_Acuator-1.0** is a reconaissance tool. 
-
-Actuator endpoints allow you to monitor and interact with your Spring application. Spring Boot includes a number of built-in endpoints and you can also add your own. For example the health endpoint provides basic application health information. 
+**Dumpo_Acuator-1.0** is a reconnaissance tool for Acuator endpoints. Dumpo_Acuator-1.0 will query the Acuator endpoints for sensetive information and save it into a file. Spring boot is a framework module which provides Rapid Application Development feature to the Spring framework.  Acuator endpoints are in-built HTTP endpoints available for any boot application for different monitoring and management purposes. Unfortunatly if Acuator endpoints are misconfigured can allow sensetive information to leak in the internet. 
 
 The tool interogates the following endpoints available:
 
-1.  **autoconfig** - Displays an auto-configuration report showing all auto-configuration candidates and the reason why they 'were' or 'were not' applied.
-2.  **beans** - Displays a complete list of all the Spring beans in your application.
-3.  **configprops** - Displays a collated list of all @ConfigurationProperties.
-4.  **dump** - Performs a thread dump.
-5.  **env** - Exposes properties from Spring's ConfigurableEnvironment.
-6.  **health** - Shows application health information.
-7.  **info** - Displays arbitrary application info.
-8.  **metrics** - Shows 'metrics' information for the current application.
-9.  **mappings** - Displays a collated list of all @RequestMapping paths.
-10. **shutdown** - Allows the application to be gracefully shutdown (not enabled by default).
-11. **trace** - Displays trace information (by default the last few HTTP requests).
+1.  auditevents: Exposes audit events information for the current application. Requires an AuditEventRepository bean.
+2.  beans:  Displays a complete list of all the Spring beans in your application.
+3.  caches: Exposes available caches.
+4.  conditions: Shows the conditions that were evaluated on configuration and auto-configuration classes and the reasons why they did or did not match.
+5.  configprops:  Displays a collated list of all @ConfigurationProperties.
+6.  env: Exposes properties from Spring Environment.
+7.  flyway: Shows any Flyway database migrations that have been applied. Requires one or more Flyway beans.
+8.  health: Shows application health information.
+9.  httptrace: Displays HTTP trace information (by default, the last 100 HTTP request-response exchanges). Requires an HttpTraceRepository bean.
+10. info: Displays arbitrary application info.
+11. integrationgraph:  Shows the Spring Integration graph. Requires a dependency on spring-integration-core.
+12. loggers: Shows and modifies the configuration of loggers in the application.
+13. liquibase: Shows any Liquibase database migrations that have been applied. Requires one or more Liquibase beans.
+14. metrics: Shows metrics information for the current application.
+15. mappings: Displays a collated list of all @RequestMapping paths.
+16. scheduledtasks: Displays the scheduled tasks in your application.
+17. sessions: Allows retrieval and deletion of user sessions from a Spring Session-backed session store.
+18. jolokia: Exposes JMX beans over HTTP (when Jolokia is on the classpath, not available for WebFlux). Requires a dependency on jolokia-core.
+19. logfile: Returns the contents of the logfile (if logging.file.name or logging.file.path properties have been set). 
+20. prometheus:  Exposes metrics in a format that can be scraped by a Prometheus server. Requires a dependency on micrometer-registry-prometheus.
+21. threaddump:  Performs a thread dump.
+22. hystrix.stream: Set of metrics it gathers about each HystrixCommand
 
 #### Screenshot
 ![Screenshot software](http://url/screenshot-software.png "screenshot software")
 
 ## Download
-* [Version 1.0](https://github.com/username/sw-name/archive/master.zip)
+* [Version 1.0](https://github.com/supremeLame/Dumpo_Acuator-.git)
 
 ## Usage
 ```$ git clone https://github.com/username/software-project.git
 ...
 ```
 ## Contributors
-
-### Contributors on GitHub
-* [Contributors](https://github.com/username/sw-name/graphs/contributors)
-
-### Translations
-* [Transifex](https://www.transifex.com/projects/p/sw-name/)
-
-### Third party libraries
-* see [LIBRARIES](https://github.com/username/sw-name/blob/master/LIBRARIES.md) files
+---
+supremeLame
 
 ## License 
-* see [LICENSE](https://github.com/username/sw-name/blob/master/LICENSE.md) file
+---
+
+* This tool is released under the Apache License, Version 2.0 for more information please see [LICENSE](https://opensource.org/licenses/Apache-2.0) file
 
 ## Version 
-* Version X.Y
+---
 
-## How-to use this code
-* see [INSTRUCTIONS](https://github.com/username/sw-name/blob/master/INSTRUCTIONS.md) file
+* Version 1.0
 
 ## Contact
-#### Developer/Company
-* Homepage: 
-* e-mail: 
-* Twitter: [@twitterhandle](https://twitter.com/twitterhandle "twitterhandle on twitter")
-* other communication/social media
+---
 
-[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=username&url=https://github.com/username/sw-name&title=sw-name&language=&tags=github&category=software) 
+* Blog page: https://securityhorror.blogspot.com/
