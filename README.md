@@ -29,9 +29,6 @@ The tool interogates the following endpoints available:
 21. threaddump:  Performs a thread dump.
 22. hystrix.stream: Set of metrics it gathers about each HystrixCommand
 
-#### Screenshot
-![Screenshot software](http://url/screenshot-software.png "screenshot software")
-
 ## Download
 * [Version 1.0](https://github.com/supremeLame/Dumpo_Acuator-.git)
 
