@@ -35,7 +35,7 @@ The tool interogates the following endpoints available:
 ## Usage
 ---
 ```
-$ git clone https://github.com/username/software-project.git```
+$ git clone https://github.com/username/software-project.git
 $ chmod +x Dumpo_Acuator-v1.0
 $ ./Dumpo_Acuator-v1.0 https://www.target.com
 OR
