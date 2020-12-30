@@ -46,11 +46,6 @@ $ ./Dumpo_Acuator-v1.0 httpss//www.target.com
 ---
 supremeLame
 
-## License 
----
-
-* This tool is released under the Apache License, Version 2.0 for more information please see [LICENSE](https://opensource.org/licenses/Apache-2.0) file
-
 ## Version 
 ---
 
