@@ -1,4 +1,4 @@
-![Image](http://www.magicalrecipes.net/wp-content/uploads/2014/01/dumbo.jpg "icon")
+![Image](https://images.uncyclomedia.co/uncyclopedia/en/e/e2/Dumbo.GIF "icon")
 
 Dumpo_Acuator-v1.0
 ======
