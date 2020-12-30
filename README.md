@@ -1,6 +1,22 @@
 Dumpo_Acuator-v1.0
 ======
-**Dumpo_Acuator-1.0** is a software for things. Short description here.
+**Dumpo_Acuator-1.0** is a reconaissance tool. 
+
+Actuator endpoints allow you to monitor and interact with your Spring application. Spring Boot includes a number of built-in endpoints and you can also add your own. For example the health endpoint provides basic application health information. 
+
+The tool interogates the following endpoints available:
+
+1.  **autoconfig** - Displays an auto-configuration report showing all auto-configuration candidates and the reason why they 'were' or 'were not' applied.
+2.  **beans** - Displays a complete list of all the Spring beans in your application.
+3.  **configprops** - Displays a collated list of all @ConfigurationProperties.
+4.  **dump** - Performs a thread dump.
+5.  **env** - Exposes properties from Spring's ConfigurableEnvironment.
+6.  **health** - Shows application health information.
+7.  **info** - Displays arbitrary application info.
+8.  **metrics** - Shows 'metrics' information for the current application.
+9.  **mappings** - Displays a collated list of all @RequestMapping paths.
+10. **shutdown** - Allows the application to be gracefully shutdown (not enabled by default).
+11. **trace** - Displays trace information (by default the last few HTTP requests).
 
 #### Screenshot
 ![Screenshot software](http://url/screenshot-software.png "screenshot software")
