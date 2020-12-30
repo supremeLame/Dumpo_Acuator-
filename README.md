@@ -1,4 +1,4 @@
-![https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.magicalrecipes.net%2Fwp-content%2Fuploads%2F2014%2F01%2Fdumbo.jpg&f=1&nofb=1](Icon-pictures.png "icon")
+![Image](http://www.magicalrecipes.net/wp-content/uploads/2014/01/dumbo.jpg "icon")
 
 Dumpo_Acuator-v1.0
 ======
