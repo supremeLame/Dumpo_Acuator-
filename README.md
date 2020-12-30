@@ -1,3 +1,5 @@
+![https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.magicalrecipes.net%2Fwp-content%2Fuploads%2F2014%2F01%2Fdumbo.jpg&f=1&nofb=1](Icon-pictures.png "icon")
+
 Dumpo_Acuator-v1.0
 ======
 **Dumpo_Acuator-1.0** is a reconnaissance tool for Acuator endpoints. Dumpo_Acuator-1.0 will query the Acuator endpoints for sensetive information and save it into a file. Spring boot is a framework module which provides Rapid Application Development feature to the Spring framework.  Acuator endpoints are in-built HTTP endpoints available for any boot application for different monitoring and management purposes. Unfortunatly if Acuator endpoints are misconfigured can allow sensetive information to leak in the internet. 
